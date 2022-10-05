@@ -17,41 +17,17 @@
         android:theme="@style/Theme.Movil_modelo_proyecto_2022_2"
         tools:targetApi="31">
 
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+               <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".vista.crud.AlumnoCrudFormularioActivity" />
-        <activity android:name=".vista.crud.AlumnoCrudListaActivity" />
-
-        <activity android:name=".vista.crud.AutorCrudFormularioActivity" />
-        <activity android:name=".vista.crud.AutorCrudListaActivity" />
-
-        <activity android:name=".vista.crud.EditorialCrudFormularioActivity" />
-        <activity android:name=".vista.crud.EditorialCrudListaActivity" />
         <activity android:name=".vista.registra.EditorialRegistraActivity" />
-
-        <activity android:name=".vista.crud.LibroCrudFormularioActivity" />
-        <activity android:name=".vista.crud.LibroCrudListaActivity" />
-
-        <activity android:name=".vista.crud.ProveedorCrudFormularioActivity" />
-        <activity android:name=".vista.crud.ProveedorCrudListaActivity" />
-
-        <activity android:name=".vista.crud.RevistaCrudFormularioActivity" />
-        <activity android:name=".vista.crud.RevistaCrudListaActivity" />
-
-        <activity android:name=".vista.crud.SalaCrudFormularioActivity" />
-        <activity android:name=".vista.crud.SalaCrudListaActivity" />
-
-        <activity android:name=".vista.crud.UsuarioCrudFormularioActivity" />
-        <activity android:name=".vista.crud.UsuarioCrudListaActivity" />
+        <activity  android:name=".vista.consulta.EditorialConsultaActivity" />
 
     </application>
 
