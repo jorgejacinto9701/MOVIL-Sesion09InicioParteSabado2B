@@ -38,6 +38,12 @@ public class NewAppCompatActivity extends AppCompatActivity {
             return true;
         }
 
+        if (id == R.id.idMenuCrudEditorial){
+            Intent intent = new Intent(this, EditorialConsultaActivity.class);
+            startActivity(intent);
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

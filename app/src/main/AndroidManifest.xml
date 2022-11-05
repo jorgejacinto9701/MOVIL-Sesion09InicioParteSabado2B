@@ -26,8 +26,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".vista.crud.EditorialCrudFormularioActivity" />
+        <activity android:name=".vista.crud.EditorialCrudListaActivity" />
         <activity android:name=".vista.registra.EditorialRegistraActivity" />
-        <activity  android:name=".vista.consulta.EditorialConsultaActivity" />
+        <activity android:name=".vista.consulta.EditorialConsultaActivity" />
 
     </application>
 
