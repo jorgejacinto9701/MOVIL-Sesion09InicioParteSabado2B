@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.cibertec.movil_modelo_proyecto_2022_2.R;
 import com.cibertec.movil_modelo_proyecto_2022_2.vista.consulta.EditorialConsultaActivity;
+import com.cibertec.movil_modelo_proyecto_2022_2.vista.crud.EditorialCrudListaActivity;
 import com.cibertec.movil_modelo_proyecto_2022_2.vista.registra.EditorialRegistraActivity;
 
 public class NewAppCompatActivity extends AppCompatActivity {
@@ -39,7 +40,7 @@ public class NewAppCompatActivity extends AppCompatActivity {
         }
 
         if (id == R.id.idMenuCrudEditorial){
-            Intent intent = new Intent(this, EditorialConsultaActivity.class);
+            Intent intent = new Intent(this, EditorialCrudListaActivity.class);
             startActivity(intent);
             return true;
         }
