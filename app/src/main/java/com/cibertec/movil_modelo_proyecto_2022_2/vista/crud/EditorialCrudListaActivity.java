@@ -71,8 +71,10 @@ public class EditorialCrudListaActivity extends NewAppCompatActivity {
         lstEditorial.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Editorial objEditorial = data.get(i);
                 Intent intent = new Intent(EditorialCrudListaActivity.this, EditorialCrudFormularioActivity.class);
                 intent.putExtra("var_tipo", "ACTUALIZAR");
+                intent.putExtra("var_item", objEditorial);
                 startActivity(intent);
             }
         });
